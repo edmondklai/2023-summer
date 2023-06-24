@@ -142,6 +142,20 @@ while (count < 10) {
 
 ```
 
+## Condition
+```js
+  const name = "Edmond"
+  let isEating = false
+  if (name === "Edmond") {
+    console.log(`the name is ${Mary}`)
+  } else if (name === "Mary") {
+    console.log(`the name is ${Mary}`)
+  } else {
+    console.log('I did not find a name')
+  }
+```
+
+
 ### Challenge for today
 
 #### Very Easy
