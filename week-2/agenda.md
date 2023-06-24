@@ -16,6 +16,7 @@
 - Running JavaScript on your computer instead of inside the browser
 
 ### Create a new repo in Github
+https://www.youtube.com/watch?v=xvwBtODV0ms
   - Use the graphic interface (GI) to create a repo 
   - Clone with your 
 - Lean some basic git commands
