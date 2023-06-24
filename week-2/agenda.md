@@ -46,8 +46,14 @@ https://www.youtube.com/watch?v=xvwBtODV0ms
 ### Boolean
 ```js
   // declaration
-  const isEating = true
-  const isSleeping = false
+  let isEating = true
+  let isSleeping = false
+  const isHuman = true
+
+  isEating = false
+  isSleeping = true
+  isHuman = false
+  console.log(isEating, isSleeping, isHuman)
 ```
 
 ### Basic Arithmetic 
