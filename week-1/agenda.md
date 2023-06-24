@@ -38,11 +38,16 @@
 
 ## Suggested reading topics
   - HTML
+    - <table>
+    - <ul>
+    - <ol>
+
   - Javascript
     - Variables
     - Loops
     - Arrays
     - Objects
+    - Functions
     - Condition
 
 

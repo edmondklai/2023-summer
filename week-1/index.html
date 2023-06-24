@@ -11,10 +11,16 @@
 </head>
 
 <body>
+
   <h1 id="header">hello world</h1>
+
   <button id="button">click me</button>
   <input id="input" />
-  <ol id="container"></ol>
+
+  <ul id="container">
+    <li>list item 1</li>
+    <li>list item 2</li>
+  </ul>
 
 </body>
 <script>
@@ -22,26 +28,23 @@
   console.log('hello world')
   const header = document.getElementById('header')
 
-
   const button = document.getElementById('button')
   button.addEventListener('click', function () {
     console.log('button clicked')
     const input = document.getElementById('input')
     console.log(input.value)
-    alert('this is the value you input: ' + input.value)
   })
 
 
 
-
-  const array =
-    ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
-  for (let i = 0; i < array.length; i++) {
-    const node = document.createElement("li");
-    const textnode = document.createTextNode(array[i]);
-    node.appendChild(textnode);
-    document.getElementById("container").appendChild(node);
-  }
+  // const array =
+  //   ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+  // for (let i = 0; i < array.length; i++) {
+  //   const node = document.createElement("li");
+  //   const textnode = document.createTextNode(array[i]);
+  //   node.appendChild(textnode);
+  //   document.getElementById("container").appendChild(node);
+  // }
 
 </script>
 
