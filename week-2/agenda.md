@@ -137,18 +137,22 @@ while (count < 10) {
 ```
 
 ### Challenge for today
+
+#### Very Easy
 - Print all even numbers from 0 – 10
 - Create a function that convert Celsius to Fahrenheit
 - Calculate the sum of numbers within an array
 - Remove the spaces found in a string
 - Write a function that return a Boolean if a number is divisible by 7
 - Return the number of vowels in a string
-- Create a function that reverses an array
 - FizzBuzz
 - Function that convert hours to secconds
 - Write a function that find the area of a triangle
+- Find the smallest number from an array
 
-
+#### Easy
+- Add up the Numbers from a Single Number
+- Find the smallest number and the largest number from an array
 
 ### Next week
 - Let's build something on the website, possibly some simple game and publish it on the internet. 
