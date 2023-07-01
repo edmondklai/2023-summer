@@ -1,6 +1,26 @@
 # Week 3
 
-## Review
+## DevOp - Review
+- Create a new Github account
+- Review
+  - `cd ~`
+  - `mkdir repos`
+  - `cd repos`
+  - `git clone https://github.com/edmondklai/2023-summer.git`
+  - `code 2023-summer`
+
+### Set up your local name and email
+  - git config --global user.name "Your Full Name"
+  - git config user.name
+
+  - git config --global user.email "your@email.address"
+  - git config user.email
+
+### clone your own repository
+  - `cd ~/repos`
+  - `git clone <copy-your-repo-link-from-github>`
+  - `code <repo-name>`
+
 For each of the tasks, create a necessary
 1. Declare a constant variables and print to the screen 
 2. Declare a variables call length that equals to 10, then add 15 to it. Print the output
@@ -9,17 +29,6 @@ For each of the tasks, create a necessary
 4. Create a function call printInformation for number 3, the input should be the studentId, schoolName, and studentName. You should be able to call the function with different input and output the same information. 
 5. Create a function that calculate the area of circle. Input should be radius and output should be the area. 
 
-## DevOp
-- Create a new Github account
-- Clone this repository
-  - `git clone https://github.com/edmondklai/2023-summer.git
-
-### Set up your local name and email
-  - git config --global user.name "Your Name"
-  - git config user.name
-
-  - git config --global user.email "your@email.address"
-  - git config user.email
 
 ### Git Commands
 To stage changes:
