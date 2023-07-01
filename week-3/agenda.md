@@ -14,8 +14,9 @@
   - `git config user.name`
 
   - `git config --global user.email "your@email.address"`
-  -`git config user.email`
+  - `git config user.email`
   - `brew install gh`
+  - Make chrome your default browser
   - `gh auth login`
 
 ### clone your own repository
