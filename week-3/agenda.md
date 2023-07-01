@@ -35,20 +35,26 @@ For each of the tasks, create a necessary
 
 ### Git Commands
 To stage changes:
-  - git add .  (all the files in the whole directory and its children)
-  - git add --all
+  - `git add .`  (all the files in the whole directory and its children)
+  - `git add --all`
 
 To unstage all changes
-  - git reset
+  - `git reset`
 
 To commit a change
-  - git commit -m "Change message"
+  - `git commit -m "Change message"`
 
 To push a change to GitHub
-  - git push
+  - `git push`
 
 To pull changes from GitHub
-  - git pull
+  - `git pull`
+
+If you are lost
+  - `git status`
+
+If you want to look at the history
+  - `git log`
 
 ## New concepts
 These are the new concepts we will cover for this week.
@@ -91,3 +97,40 @@ Different type of logical comparing
   }
 ```
 
+#### Condition practice
+After each question, make sure you commit your changes to your repository
+
+1. Create a function that take the score and print out the grade level, A, B, C, D, F
+2. Create a function call `isOdd`. Takes an input of a number and return rather it's true or false
+3. Write a program to accept two numbers and check whether they are equal or not.
+
+### Boolean logic
+Idea: we want to use multiple conditions to determine how the program should execute. So we will learn about AND, OR, NOT
+
+Syntax:
+```js
+  console.log(conditionA && conditionB) // and
+  console.log(conditionaA || conditioA) // or
+```
+
+print statements that prints out all possible scenarios
+```js
+  console.log(true && true)
+  console.log(true && false)
+  console.log(false && false)
+
+  console.log(true || true)
+  console.log(true || false)
+  console.log(false || false)
+```
+
+```js
+  console.log(!true)
+  console.log(!false)
+```
+
+#### Practice
+1. Create a password checker function that takes one password returns true if the password is equal to 'strong-password', otherwiese return false.
+2. Create a postive number checker function that takes 2 input, if both numbers are positive, return true. If not both number are postive, return false.
+3. Create a function that takes, 7 number input (temperature for each day). If any of the day, exceed 90 degree, then print (it's too hot!), otherwise, print ('It's pretty cool')
+4. Create a function to takes 2 number input. Return the highest number.
