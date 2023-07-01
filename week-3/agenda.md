@@ -37,3 +37,45 @@ To push a change to GitHub
 
 To pull changes from GitHub
   - git pull
+
+## New concepts
+These are the new concepts we will cover for this week.
+
+### Conditions
+Idea: Previously, we have executed code that only does one thing. The program is linear. We want to create programs that are smarter and execute different actions when different conditions are met. 
+
+Syntax: 
+```js
+  if (conditionA === true) {
+    console.log('conditionA is true')
+  } else if (conditionB === true) {
+    console.log('conditionB is true')
+  } else if (conditionC === true) {
+    console.log('conditionB is true')
+  } else {
+    console.log('none of the condition is true')
+  }
+```
+
+Different type of logical comparing
+```js
+  if (a === b) { 
+    // a equal to b 
+  }
+  if (a !== b) {
+    // a does not equal to me
+  }   
+  if (a > b) { 
+    // a greater b 
+  } 
+  if (a < b) { 
+    // a less than b 
+  }
+  if (a >= b) { 
+    // a greater than or equal to b 
+  }
+  if (a <= b) { 
+    // a less than or equal to b 
+  }
+```
+
