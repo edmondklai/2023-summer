@@ -10,11 +10,13 @@
   - `code 2023-summer`
 
 ### Set up your local name and email
-  - git config --global user.name "Your Full Name"
-  - git config user.name
+  - `git config --global user.name "Your Full Name"`
+  - `git config user.name`
 
-  - git config --global user.email "your@email.address"
-  - git config user.email
+  - `git config --global user.email "your@email.address"`
+  -`git config user.email`
+  - `brew install gh`
+  - `gh auth login`
 
 ### clone your own repository
   - `cd ~/repos`
