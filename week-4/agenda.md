@@ -89,3 +89,48 @@ console.log(!false);
 2. Create a postive number checker function that takes 2 input, if both numbers are positive, return true. If not both number are postive, return false.
 3. Create a function that takes, 7 number input (temperature for each day). If any of the day, exceed 90 degree, then print (it's too hot!), otherwise, print ('It's pretty cool')
 4. Create a function to takes 2 number input. Return the highest number.
+
+## Loop
+
+In computer programming, a loop is a sequence of instruction that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.
+
+For loop
+
+Basic for loop in computer science
+
+```js
+for (let i = 0; i < 10; i = i + 1) {
+  console.log(i);
+}
+```
+
+While loop
+
+```js
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i = i + 1;
+}
+```
+
+### Practice for loop
+
+Easy
+
+1. print out 20 numbers that is greater than zero
+2. print out all the odds number that is less than 100
+3. print out all the numbers from 0 to 100 that is both divisible by 3 and 5
+4. print out all the numbers from 0 to 100 that is either divisible by 7 or divisble by 10
+
+Medium
+
+1. Create a function, use a loop to compute all the natural numbers that is less than 10
+
+Hard
+
+1. Create a function, use a loop, to return the largest integer, where the integer square is less than 100
+
+Super hard
+
+1. Create a function that print out the fibonacci sequence to the n term
