@@ -126,6 +126,7 @@ Easy
 Medium
 
 1. Create a function, use a loop to compute all the natural numbers that is less than 10
+2. FizzBuzz - Write a program that prints the numbers from 1 to 100 and for multiples of ‘3’ print “Fizz” instead of the number and for the multiples of ‘5’ print “Buzz”.
 
 Hard
 
