@@ -40,6 +40,6 @@ function checkScore3(score) {
   }
 }
 
-console.log(checkScore1(60))
-console.log(checkScore2(60))
-console.log(checkScore3(60))
+console.log(checkScore1(89))
+console.log(checkScore2(89))
+console.log(checkScore3(89))

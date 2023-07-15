@@ -1,9 +1,22 @@
 
 function forLoop() {
-  for (let i = 0; i < 10; i = i + 1) {
-    console.log(i)
+  for (let i = 0; i < 100; i = i + 1) {
+    console.log(i * i)
   }
 }
+
+function forLoopOdd() {
+  for (let i = 0; i < 100; i = i + 1) {
+    if (i % 2 !== 0) {
+      console.log('odd', i)
+    }
+    if (i % 2 === 1) {
+      console.log('odd', i)
+    }
+  }
+}
+
+forLoopOdd()
 
 function whileLoop() {
   let j = 0;
@@ -15,8 +28,8 @@ function whileLoop() {
   }
 }
 
-forLoop()
-whileLoop()
+// forLoop()
+// whileLoop()
 
 // ! ForLoop Example
 // ! print out square to
@@ -40,5 +53,5 @@ function isEven(to) {
 }
 
 
-square(100)
-isEven(100)
+// square(100)
+// isEven(100)
