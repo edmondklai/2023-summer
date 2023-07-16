@@ -17,6 +17,6 @@ Now you can use node in your terminal
 
 
 ### Github link
-https://github.com/blueakashi
-https://github.com/JimmyMei96
-https://github.com/iools/practice
+- https://github.com/blueakashi
+- https://github.com/JimmyMei96
+- https://github.com/iools/practice
