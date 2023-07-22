@@ -15,10 +15,15 @@
       </section>
 
       <!-- Create an input element here for creating a new password and a button for submit -->
-
+      <input
+        type="text"
+        id="passwordInput"
+        placeholder="Create your password here"
+      />
       <!-- Create a button here for creating password  -->
-
+      <button onclick="passwordChecker()">Create</button>
       <!-- Create an empty paragraph here to show a message later -->
+      <p id="passwordText"></p>
 
       <!-- Create a log in input box -->
 
@@ -52,6 +57,19 @@
 
     let password;
     // Create a function beblow to checks for if the password is longer than 8 chacacters
+    function passwordChecker() {
+      const userCreatedPassword =
+        document.getElementById("passwordInput").value;
+
+      const acceptablePasswordLength = 8;
+      if (userCreatedPassword.length < acceptablePasswordLength) {
+        document.getElementById("passwordText").innerHTML =
+          "Password is shorter than 8 characters";
+      } else {
+        document.getElementById("passwordText").innerHTML = "Password is good!";
+        password = userCreatedPassword;
+      }
+    }
     // If longer than 8 characters, display success on the screen, and store the password in a variable
     // If not than display a message that says password is not longer than 8 characters, do not store the password
 

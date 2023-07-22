@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="main">
+      <section>
+        <input type="text" id="nameInput" placeholder="Type your name here" />
+        <button onclick="displayName()">Submit</button>
+        <p id="displayText"></p>
+
+        <button onclick="appendGreeting()">Append greeting</button>
+      </section>
+      <br />
+      <br />
+
+      <!-- Create an input element here for creating a new password and a button for submit -->
+      <input
+        type="text"
+        id="passwordInput"
+        placeholder="Create a password here"
+      />
+      <!-- Create a button here for creating password  -->
+      <button onclick="checkPasswordLength()">Create password</button>
+      <!-- Create an empty paragraph here to show a message later -->
+      <p id="passwordText"></p>
+
+      <!-- Create a log in input box -->
+      <input
+        type="text"
+        id="loginPasswordInput"
+        placeholder="Type a password here"
+      />
+      <!-- Crete a log in button -->
+      <button onclick="logIn()">log in</button>
+      <!-- Create a log in text -->
+      <p id="passwordText"></p>
+
+      <section id="programming-concepts"></section>
+
+      <br />
+      <br />
+      <section>
+        <ul>
+          <li>blue</li>
+          <li>green</li>
+          <li>red</li>
+        </ul>
+      </section>
+
+      <section id="programming-concept">
+        <button onclick="displayConcepts()">display concepts</button>
+        <ul id="programming-concept-list"></ul>
+      </section>
+    </main>
+  </body>
+  <script>
+    function displayName() {
+      // Get the value from the input box
+      const name = document.getElementById("nameInput").value;
+      // Display the name in the paragraph
+      document.getElementById("displayText").innerHTML = "Your name is " + name;
+    }
+
+    function appendGreeting() {
+      const displayText = document.getElementById("displayText");
+      const br = document.createElement("br");
+      displayText.append(br, "Welcome to the class!");
+    }
+
+    let password;
+    // Create a function beblow to checks for if the password is longer than 8 chacacters
+    // If longer than 8 characters, display success on the screen, and store the password in a variable
+    // If not than display a message that says password is not longer than 8 characters, do not store the password
+    function checkPasswordLength() {
+      const passwordValue = document.getElementById("passwordInput").value;
+
+      if (passwordValue.length > 7) {
+        console.log("yes");
+        password = passwordValue;
+      } else {
+        console.log("no");
+      }
+    }
+
+    // Login
+    // If the the password entered is correct show a message that says login
+    // If not show a message that says not login
+    function logIn() {
+      const loginPassword = document.getElementById("loginPasswordInput").value;
+      if (loginPassword === password) {
+        console.log("login");
+      } else {
+        console.log("failed to login");
+      }
+    }
+
+    const programmingConcepts = [
+      "variables",
+      "condition",
+      "boolean",
+      "string",
+      "loop",
+    ];
+
+    function displayConcepts() {
+      for (let i = 0; i < programmingConcepts.length; i = i + 1) {
+        console.log(programmingConcepts[i]);
+        const ul = document.getElementById("programming-concept-list");
+        const newLi = document.createElement("li");
+        newLi.innerText = programmingConcepts[i];
+        ul.appendChild(newLi);
+      }
+    }
+  </script>
+</html>
