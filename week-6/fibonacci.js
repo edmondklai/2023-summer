@@ -21,7 +21,7 @@ function fibonacciWrong(input) {
   }
 }
 
-fibonacci(20)
+// fibonacci(20)
 
 function fibonacci(input) {
   let a = 0;

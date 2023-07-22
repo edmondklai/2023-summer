@@ -4,6 +4,16 @@
 
 - Array index
 
+```js
+const name = [1, 3, 5, 63, 4];
+
+name[6];
+```
+
+```sh
+git clone <URL_HERE>
+```
+
 - Show and tell about your problems that you did
 
 - Prime number
@@ -225,5 +235,7 @@ includes(): Use includes() to check if a certain number exists in an array.
 find(): Use find() to find the first number in an array that is greater than 10.
 
 sort(): Sort an array of numbers in ascending order.
+
+## object
 
 ## database

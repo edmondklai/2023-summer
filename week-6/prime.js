@@ -14,4 +14,4 @@ function findPrimeNumber(input) {
   }
 }
 
-findPrimeNumber(1000)
+findPrimeNumber(100)
