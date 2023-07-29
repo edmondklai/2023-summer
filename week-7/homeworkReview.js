@@ -18,3 +18,15 @@ function passwordStrengthChecker(password) {
 console.log('passwordStregth: adsfkj523532', passwordStrengthChecker('adsfkj523532'))
 console.log('passwordStregth: ad!32', passwordStrengthChecker('ad!32'))
 console.log('passwordStregth: 23fncmljkjk4t#!', passwordStrengthChecker('23fncmljkjk4t#!'))
+
+
+function printTriangle(height) {
+  let i = 1;
+
+  while(i < height + 1) {
+    console.log('*'.repeat(i))
+    i = i + 1
+  }
+}
+
+printTriangle(10)
