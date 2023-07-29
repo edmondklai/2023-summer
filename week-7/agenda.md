@@ -42,7 +42,7 @@ arr.unshift(0); // arr is now [0, 1, 2, 3]
 
 Practice:
 
-1. Write a function named addValue that takes an array and a number as parameters. The function should add the number to the end of the array using the push method and return the new array.
+1. Write a function named add Value that takes an array and a number as parameters. The function should add the number to the end of the array using the push method and return the new array.
 
 2. Write a function named removeLastValue that takes an array as a parameter. The function should use the pop method to remove the last element from the array and return the element that was removed.
 
