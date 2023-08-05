@@ -1,5 +1,13 @@
 # Week 8
 
+## Review
+
+1. Pirate's Parrot Words: A pirate's parrot learns words by repeating what it hears. The parrot heard several phrases throughout the day. Write a function named parrotTalk that takes an array of phrases. The parrot tends to forget the last phrase it learned and always repeats the first phrase it heard. The function should remove the last phrase using pop, repeat the first phrase using push, and finally return the modified phrases' array.
+
+2. Birthday Party: You are throwing a surprise birthday party and have a list of friends to invite. However, you've just made two new friends that you want to invite. Write a function named updateGuestList that takes an array of friend names, adds one friend to the beginning of the list and another to the end. Also, you just found out one of your friends can't make it and you need to remove them from the list. The function should return the updated guest list.
+
+3. Pizza Toppings: You have an array of your favorite pizza toppings. But your doctor advised you to remove the first and last topping for health reasons. Also, you discovered two new toppings that you would like to add to your list. Write a function named updateToppings that takes an array of toppings, removes the first and last one, and adds one topping to the start and another to the end of the array. Return the modified toppings array.
+
 ## Object
 
 ### Introduction:
