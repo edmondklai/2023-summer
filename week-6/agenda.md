@@ -37,9 +37,9 @@ Return the sum once it's greater than 25
 ```js
 let numbers = [15, 10, 15, 20, 25];
 let sum = 0;
-i = 0;
+let i = 0;
 while (sum < 50) {
-  sum += numbers[i];
+  sum = sum + numbers[i];
   i = i + 1;
 }
 console.log(sum);

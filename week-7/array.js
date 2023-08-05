@@ -88,20 +88,30 @@ function joinAndConcat(ary1, ary2) {
   return ary3.join(' ')
 }
 
-joinAndConcat(['a', 'b', 'c'], ['d', 'e'])
+console.log('joinAndConcat', joinAndConcat(['a', 'b', 'c'], ['d', 'e']))
 
 function multiConcat(aryOfArys) {
-  let ary = []
+  let ary = [];
   for (let i = 0; i < aryOfArys.length; i = i + 1) {
+    // console.log(aryOfArys[i])
     ary = ary.concat(aryOfArys[i]);
   }
-  return ary
+  return ary;
 }
 
-console.log('multi', multiConcat([[1, 2], [3, 4]]))
+console.log('multi', multiConcat([
+  [1, 2],
+  [3, 4],
+  [5, 5],
+  [3, 1]
+]))
 
 
 const aryOfArrays = [
   [1, 3],
+  [4, 5],
+  [5, 7],
   [3, 5]
 ]
+
+// [1, 3, 4, 5]
