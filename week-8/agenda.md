@@ -46,6 +46,12 @@ book.author = "Joanne Rowling";
 
 Update the book object's author and add a year property.
 
+### Removing property from the object
+
+```
+delete book.pages;
+```
+
 ### Object Methods
 
 Object methods are functions stored as properties within an object. They allow objects to have actions (or behaviors) associated with them.
