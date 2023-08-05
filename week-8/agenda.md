@@ -64,6 +64,8 @@ delete book.pages;
 
 Object methods are functions stored as properties within an object. They allow objects to have actions (or behaviors) associated with them.
 
+The `this` keyword is a special identifier that refers to the context in which a function is called. When the function is called inside of the object. The `this` keyword refer to the parent object.
+
 ```js
 let person = {
   firstName: "John",
