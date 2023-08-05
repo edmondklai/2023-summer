@@ -81,6 +81,23 @@ Add a method to their objects created earlier.
 
 For the book object, students might add a method like getSummary which returns a short summary of the book.
 
+## Adding dependency
+
+Libraries are code that other engineers wrote before, and you can install them so you can re-use other peoples' work
+
+npm - node package managner
+
+`npm install prompt-sync`
+
+```js
+const prompt = require("prompt-sync")();
+
+const name = prompt("What is your name?");
+console.log(`Hey there ${name}`);
+```
+
+We don't want to commit the dependency files to Github, so we will need to add a `.gitignore` file. In the file put `node_modules`
+
 ### Projects
 
 #### Create a student profiles using Object. This object should have.
